@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E02CE961C5268AB00740C25 /* WeatherModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E02CE951C5268AB00740C25 /* WeatherModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E02CE9F1C52690D00740C25 /* WMConstans.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E02CE9D1C52690D00740C25 /* WMConstans.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E02CEA01C52690D00740C25 /* WMConstans.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E02CE9E1C52690D00740C25 /* WMConstans.m */; };
+		8E02CEBD1C5269A900740C25 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E02CEA31C5269A900740C25 /* Info.plist */; };
+		8E02CEBE1C5269A900740C25 /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E02CEA51C5269A900740C25 /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E02CEBF1C5269A900740C25 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E02CEA61C5269A900740C25 /* JSONModel.m */; };
+		8E02CEC01C5269A900740C25 /* JSONModelArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E02CEA71C5269A900740C25 /* JSONModelArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E02CEC11C5269A900740C25 /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E02CEA81C5269A900740C25 /* JSONModelArray.m */; };
+		8E02CEC21C5269A900740C25 /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E02CEA91C5269A900740C25 /* JSONModelClassProperty.h */; };
+		8E02CEC31C5269A900740C25 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E02CEAA1C5269A900740C25 /* JSONModelClassProperty.m */; };
+		8E02CEC41C5269A900740C25 /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E02CEAB1C5269A900740C25 /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E02CEC51C5269A900740C25 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E02CEAC1C5269A900740C25 /* JSONModelError.m */; };
+		8E02CEC61C5269A900740C25 /* NSArray+JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E02CEAE1C5269A900740C25 /* NSArray+JSONModel.h */; };
+		8E02CEC71C5269A900740C25 /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E02CEAF1C5269A900740C25 /* NSArray+JSONModel.m */; };
+		8E02CEC81C5269A900740C25 /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E02CEB01C5269A900740C25 /* JSONModelLib.h */; };
+		8E02CEC91C5269A900740C25 /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E02CEB21C5269A900740C25 /* JSONAPI.h */; };
+		8E02CECA1C5269A900740C25 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E02CEB31C5269A900740C25 /* JSONAPI.m */; };
+		8E02CECB1C5269A900740C25 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E02CEB41C5269A900740C25 /* JSONHTTPClient.h */; };
+		8E02CECC1C5269A900740C25 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E02CEB51C5269A900740C25 /* JSONHTTPClient.m */; };
+		8E02CECD1C5269A900740C25 /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E02CEB61C5269A900740C25 /* JSONModel+networking.h */; };
+		8E02CECE1C5269A900740C25 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E02CEB71C5269A900740C25 /* JSONModel+networking.m */; };
+		8E02CECF1C5269A900740C25 /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E02CEB91C5269A900740C25 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E02CED01C5269A900740C25 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E02CEBA1C5269A900740C25 /* JSONKeyMapper.m */; };
+		8E02CED11C5269A900740C25 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E02CEBB1C5269A900740C25 /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E02CED21C5269A900740C25 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E02CEBC1C5269A900740C25 /* JSONValueTransformer.m */; };
+		8E02CED91C526E2500740C25 /* WMServerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E02CED71C526E2500740C25 /* WMServerConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E02CEDA1C526E2500740C25 /* WMServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E02CED81C526E2500740C25 /* WMServerConnection.m */; };
+		8EE942DC1C52A51B00ED21A2 /* WMWatherData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE942DA1C52A51B00ED21A2 /* WMWatherData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EE942DD1C52A51B00ED21A2 /* WMWatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE942DB1C52A51B00ED21A2 /* WMWatherData.m */; };
+		8EE942E01C52A66600ED21A2 /* WMCity.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE942DE1C52A66600ED21A2 /* WMCity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EE942E11C52A66600ED21A2 /* WMCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE942DF1C52A66600ED21A2 /* WMCity.m */; };
+		8EE942E41C52A70F00ED21A2 /* WMCoord.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE942E21C52A70F00ED21A2 /* WMCoord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EE942E51C52A70F00ED21A2 /* WMCoord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE942E31C52A70F00ED21A2 /* WMCoord.m */; };
+		8EE942E81C52A85800ED21A2 /* WMWeatherDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE942E61C52A85800ED21A2 /* WMWeatherDetail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EE942E91C52A85800ED21A2 /* WMWeatherDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE942E71C52A85800ED21A2 /* WMWeatherDetail.m */; };
+		8EE942EC1C52A8B100ED21A2 /* WMTempDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE942EA1C52A8B100ED21A2 /* WMTempDetails.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EE942ED1C52A8B100ED21A2 /* WMTempDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE942EB1C52A8B100ED21A2 /* WMTempDetails.m */; };
+		8EE942F01C52A97400ED21A2 /* WMWeatherDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE942EE1C52A97400ED21A2 /* WMWeatherDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EE942F11C52A97400ED21A2 /* WMWeatherDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE942EF1C52A97400ED21A2 /* WMWeatherDescription.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E02CE921C5268AB00740C25 /* WeatherModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WeatherModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E02CE951C5268AB00740C25 /* WeatherModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherModel.h; sourceTree = "<group>"; };
+		8E02CE971C5268AB00740C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E02CE9D1C52690D00740C25 /* WMConstans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMConstans.h; sourceTree = "<group>"; };
+		8E02CE9E1C52690D00740C25 /* WMConstans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMConstans.m; sourceTree = "<group>"; };
+		8E02CEA31C5269A900740C25 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E02CEA51C5269A900740C25 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		8E02CEA61C5269A900740C25 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		8E02CEA71C5269A900740C25 /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		8E02CEA81C5269A900740C25 /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
+		8E02CEA91C5269A900740C25 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		8E02CEAA1C5269A900740C25 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		8E02CEAB1C5269A900740C25 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		8E02CEAC1C5269A900740C25 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		8E02CEAE1C5269A900740C25 /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		8E02CEAF1C5269A900740C25 /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		8E02CEB01C5269A900740C25 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		8E02CEB21C5269A900740C25 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		8E02CEB31C5269A900740C25 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		8E02CEB41C5269A900740C25 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		8E02CEB51C5269A900740C25 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		8E02CEB61C5269A900740C25 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		8E02CEB71C5269A900740C25 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		8E02CEB91C5269A900740C25 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		8E02CEBA1C5269A900740C25 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		8E02CEBB1C5269A900740C25 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		8E02CEBC1C5269A900740C25 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		8E02CED71C526E2500740C25 /* WMServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMServerConnection.h; sourceTree = "<group>"; };
+		8E02CED81C526E2500740C25 /* WMServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMServerConnection.m; sourceTree = "<group>"; };
+		8EE942DA1C52A51B00ED21A2 /* WMWatherData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWatherData.h; sourceTree = "<group>"; };
+		8EE942DB1C52A51B00ED21A2 /* WMWatherData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMWatherData.m; sourceTree = "<group>"; };
+		8EE942DE1C52A66600ED21A2 /* WMCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCity.h; sourceTree = "<group>"; };
+		8EE942DF1C52A66600ED21A2 /* WMCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCity.m; sourceTree = "<group>"; };
+		8EE942E21C52A70F00ED21A2 /* WMCoord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCoord.h; sourceTree = "<group>"; };
+		8EE942E31C52A70F00ED21A2 /* WMCoord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCoord.m; sourceTree = "<group>"; };
+		8EE942E61C52A85800ED21A2 /* WMWeatherDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWeatherDetail.h; sourceTree = "<group>"; };
+		8EE942E71C52A85800ED21A2 /* WMWeatherDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMWeatherDetail.m; sourceTree = "<group>"; };
+		8EE942EA1C52A8B100ED21A2 /* WMTempDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTempDetails.h; sourceTree = "<group>"; };
+		8EE942EB1C52A8B100ED21A2 /* WMTempDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTempDetails.m; sourceTree = "<group>"; };
+		8EE942EE1C52A97400ED21A2 /* WMWeatherDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWeatherDescription.h; sourceTree = "<group>"; };
+		8EE942EF1C52A97400ED21A2 /* WMWeatherDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMWeatherDescription.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E02CE8E1C5268AB00740C25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E02CE881C5268AB00740C25 = {
+			isa = PBXGroup;
+			children = (
+				8E02CE941C5268AB00740C25 /* WeatherModel */,
+				8E02CE931C5268AB00740C25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E02CE931C5268AB00740C25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E02CE921C5268AB00740C25 /* WeatherModel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E02CE941C5268AB00740C25 /* WeatherModel */ = {
+			isa = PBXGroup;
+			children = (
+				8EE942D91C52A48F00ED21A2 /* Model */,
+				8E02CED71C526E2500740C25 /* WMServerConnection.h */,
+				8E02CED81C526E2500740C25 /* WMServerConnection.m */,
+				8E02CEA11C5269A900740C25 /* External */,
+				8E02CE951C5268AB00740C25 /* WeatherModel.h */,
+				8E02CE971C5268AB00740C25 /* Info.plist */,
+				8E02CE9D1C52690D00740C25 /* WMConstans.h */,
+				8E02CE9E1C52690D00740C25 /* WMConstans.m */,
+			);
+			path = WeatherModel;
+			sourceTree = "<group>";
+		};
+		8E02CEA11C5269A900740C25 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				8E02CEA21C5269A900740C25 /* JSONModel */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		8E02CEA21C5269A900740C25 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				8E02CEA31C5269A900740C25 /* Info.plist */,
+				8E02CEA41C5269A900740C25 /* JSONModel */,
+				8E02CEAD1C5269A900740C25 /* JSONModelCategories */,
+				8E02CEB01C5269A900740C25 /* JSONModelLib.h */,
+				8E02CEB11C5269A900740C25 /* JSONModelNetworking */,
+				8E02CEB81C5269A900740C25 /* JSONModelTransformations */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		8E02CEA41C5269A900740C25 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				8E02CEA51C5269A900740C25 /* JSONModel.h */,
+				8E02CEA61C5269A900740C25 /* JSONModel.m */,
+				8E02CEA71C5269A900740C25 /* JSONModelArray.h */,
+				8E02CEA81C5269A900740C25 /* JSONModelArray.m */,
+				8E02CEA91C5269A900740C25 /* JSONModelClassProperty.h */,
+				8E02CEAA1C5269A900740C25 /* JSONModelClassProperty.m */,
+				8E02CEAB1C5269A900740C25 /* JSONModelError.h */,
+				8E02CEAC1C5269A900740C25 /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		8E02CEAD1C5269A900740C25 /* JSONModelCategories */ = {
+			isa = PBXGroup;
+			children = (
+				8E02CEAE1C5269A900740C25 /* NSArray+JSONModel.h */,
+				8E02CEAF1C5269A900740C25 /* NSArray+JSONModel.m */,
+			);
+			path = JSONModelCategories;
+			sourceTree = "<group>";
+		};
+		8E02CEB11C5269A900740C25 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				8E02CEB21C5269A900740C25 /* JSONAPI.h */,
+				8E02CEB31C5269A900740C25 /* JSONAPI.m */,
+				8E02CEB41C5269A900740C25 /* JSONHTTPClient.h */,
+				8E02CEB51C5269A900740C25 /* JSONHTTPClient.m */,
+				8E02CEB61C5269A900740C25 /* JSONModel+networking.h */,
+				8E02CEB71C5269A900740C25 /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		8E02CEB81C5269A900740C25 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				8E02CEB91C5269A900740C25 /* JSONKeyMapper.h */,
+				8E02CEBA1C5269A900740C25 /* JSONKeyMapper.m */,
+				8E02CEBB1C5269A900740C25 /* JSONValueTransformer.h */,
+				8E02CEBC1C5269A900740C25 /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		8EE942D91C52A48F00ED21A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8EE942DA1C52A51B00ED21A2 /* WMWatherData.h */,
+				8EE942DB1C52A51B00ED21A2 /* WMWatherData.m */,
+				8EE942DE1C52A66600ED21A2 /* WMCity.h */,
+				8EE942DF1C52A66600ED21A2 /* WMCity.m */,
+				8EE942E21C52A70F00ED21A2 /* WMCoord.h */,
+				8EE942E31C52A70F00ED21A2 /* WMCoord.m */,
+				8EE942E61C52A85800ED21A2 /* WMWeatherDetail.h */,
+				8EE942E71C52A85800ED21A2 /* WMWeatherDetail.m */,
+				8EE942EA1C52A8B100ED21A2 /* WMTempDetails.h */,
+				8EE942EB1C52A8B100ED21A2 /* WMTempDetails.m */,
+				8EE942EE1C52A97400ED21A2 /* WMWeatherDescription.h */,
+				8EE942EF1C52A97400ED21A2 /* WMWeatherDescription.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8E02CE8F1C5268AB00740C25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE942E81C52A85800ED21A2 /* WMWeatherDetail.h in Headers */,
+				8EE942EC1C52A8B100ED21A2 /* WMTempDetails.h in Headers */,
+				8E02CEC61C5269A900740C25 /* NSArray+JSONModel.h in Headers */,
+				8E02CED11C5269A900740C25 /* JSONValueTransformer.h in Headers */,
+				8E02CEC01C5269A900740C25 /* JSONModelArray.h in Headers */,
+				8E02CEC91C5269A900740C25 /* JSONAPI.h in Headers */,
+				8E02CECD1C5269A900740C25 /* JSONModel+networking.h in Headers */,
+				8EE942E41C52A70F00ED21A2 /* WMCoord.h in Headers */,
+				8EE942F01C52A97400ED21A2 /* WMWeatherDescription.h in Headers */,
+				8E02CEBE1C5269A900740C25 /* JSONModel.h in Headers */,
+				8E02CEC21C5269A900740C25 /* JSONModelClassProperty.h in Headers */,
+				8EE942DC1C52A51B00ED21A2 /* WMWatherData.h in Headers */,
+				8E02CECB1C5269A900740C25 /* JSONHTTPClient.h in Headers */,
+				8E02CE961C5268AB00740C25 /* WeatherModel.h in Headers */,
+				8E02CED91C526E2500740C25 /* WMServerConnection.h in Headers */,
+				8EE942E01C52A66600ED21A2 /* WMCity.h in Headers */,
+				8E02CE9F1C52690D00740C25 /* WMConstans.h in Headers */,
+				8E02CECF1C5269A900740C25 /* JSONKeyMapper.h in Headers */,
+				8E02CEC81C5269A900740C25 /* JSONModelLib.h in Headers */,
+				8E02CEC41C5269A900740C25 /* JSONModelError.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8E02CE911C5268AB00740C25 /* WeatherModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E02CE9A1C5268AB00740C25 /* Build configuration list for PBXNativeTarget "WeatherModel" */;
+			buildPhases = (
+				8E02CE8D1C5268AB00740C25 /* Sources */,
+				8E02CE8E1C5268AB00740C25 /* Frameworks */,
+				8E02CE8F1C5268AB00740C25 /* Headers */,
+				8E02CE901C5268AB00740C25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeatherModel;
+			productName = WeatherModel;
+			productReference = 8E02CE921C5268AB00740C25 /* WeatherModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E02CE891C5268AB00740C25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WM;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Figure8;
+				TargetAttributes = {
+					8E02CE911C5268AB00740C25 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 8E02CE8C1C5268AB00740C25 /* Build configuration list for PBXProject "WeatherModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E02CE881C5268AB00740C25;
+			productRefGroup = 8E02CE931C5268AB00740C25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E02CE911C5268AB00740C25 /* WeatherModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E02CE901C5268AB00740C25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E02CEBD1C5269A900740C25 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E02CE8D1C5268AB00740C25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E02CECA1C5269A900740C25 /* JSONAPI.m in Sources */,
+				8EE942F11C52A97400ED21A2 /* WMWeatherDescription.m in Sources */,
+				8E02CEC11C5269A900740C25 /* JSONModelArray.m in Sources */,
+				8EE942E11C52A66600ED21A2 /* WMCity.m in Sources */,
+				8EE942E91C52A85800ED21A2 /* WMWeatherDetail.m in Sources */,
+				8E02CEC31C5269A900740C25 /* JSONModelClassProperty.m in Sources */,
+				8EE942ED1C52A8B100ED21A2 /* WMTempDetails.m in Sources */,
+				8E02CEA01C52690D00740C25 /* WMConstans.m in Sources */,
+				8E02CED01C5269A900740C25 /* JSONKeyMapper.m in Sources */,
+				8E02CECE1C5269A900740C25 /* JSONModel+networking.m in Sources */,
+				8E02CEDA1C526E2500740C25 /* WMServerConnection.m in Sources */,
+				8E02CED21C5269A900740C25 /* JSONValueTransformer.m in Sources */,
+				8EE942E51C52A70F00ED21A2 /* WMCoord.m in Sources */,
+				8E02CECC1C5269A900740C25 /* JSONHTTPClient.m in Sources */,
+				8E02CEC51C5269A900740C25 /* JSONModelError.m in Sources */,
+				8EE942DD1C52A51B00ED21A2 /* WMWatherData.m in Sources */,
+				8E02CEC71C5269A900740C25 /* NSArray+JSONModel.m in Sources */,
+				8E02CEBF1C5269A900740C25 /* JSONModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E02CE981C5268AB00740C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E02CE991C5268AB00740C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E02CE9B1C5268AB00740C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WeatherModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.figure8.WeatherModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8E02CE9C1C5268AB00740C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WeatherModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.figure8.WeatherModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E02CE8C1C5268AB00740C25 /* Build configuration list for PBXProject "WeatherModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E02CE981C5268AB00740C25 /* Debug */,
+				8E02CE991C5268AB00740C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E02CE9A1C5268AB00740C25 /* Build configuration list for PBXNativeTarget "WeatherModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E02CE9B1C5268AB00740C25 /* Debug */,
+				8E02CE9C1C5268AB00740C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E02CE891C5268AB00740C25 /* Project object */;
+}
